@@ -1,0 +1,62 @@
+.HorizontalAd{
+    position: relative;
+    margin: 25vh auto;
+    width: 970px;
+    height: 250px;
+    background-image: url('./images/bkg-image.png');
+    background-size: cover;
+    background-position: 50% 33%;
+    background-blend-mode: multiply;
+}
+
+
+.HorizontalAd__main {
+    background: linear-gradient(90deg, transparent 57%, rgba(0,0,0,0.456936) 100%);
+    height: 100%;
+    display: flex;
+}
+
+.HorizontalAd__content{
+    margin: 15px  0 0 15px;
+    width: 100%;
+}
+
+.HorizontalAd__main-content-container{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.HorizontalAd__main-content {
+    width: 397px;
+    font-family: frutiger-bold;
+    font-size: 1.4rem;
+    color: white
+}
+
+.HorizontalAd__caption {
+    font-family: frutiger-light;
+    letter-spacing: .07em;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.HorizontalAd__logo{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 100px;
+}
+
+.HorizontalAd__action-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #ed1c29;
+    color: #fff;
+    font-family: frutiger-bold;
+}
+
+.HorizontalAd__action-btn:hover {
+    cursor: pointer;
+}
