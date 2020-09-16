@@ -7,6 +7,7 @@
     background-size: cover;
     background-position: 50% 33%;
     background-blend-mode: multiply;
+    cursor: pointer;
 }
 
 
@@ -17,13 +18,12 @@
 }
 
 .HorizontalAd__content{
-    margin: 15px  0 0 15px;
-    width: 100%;
+    margin: 10px 0 0 15px;
+    width: 80.5%;
 }
 
 .HorizontalAd__main-content-container{
     display: flex;
-    margin-bottom: 20px;
     justify-content: space-between;
 }
 
@@ -35,11 +35,11 @@
 }
 
 .HorizontalAd__caption {
-    font-family: frutiger-light;
-    letter-spacing: .07em;
-    color: white;
-    font-size: 12px;
-    margin-bottom: 3.5em;
+    margin-bottom: 1.5em;
+}
+
+.HorizontalAd__caption-img{
+    width: 213px;
 }
 
 .HorizontalAd__logo{
@@ -55,6 +55,11 @@
     background-color: #ed1c29;
     color: #fff;
     font-family: frutiger-bold;
+}
+
+.HorizontalAd__secondary-logo{
+    width: 178px;
+    padding-top: 20px;
 }
 
 .HorizontalAd__action-btn:hover {

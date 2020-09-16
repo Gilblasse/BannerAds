@@ -14,7 +14,7 @@ export default function HorizontalAd() {
 
                 <div className="HorizontalAd__content">
                     <div className="HorizontalAd__caption">
-                        <p>A STAR ALLIANCE MEMBER</p>
+                     <img className="HorizontalAd__caption-img" src={require('./images/Star Alliance@1X.png')}/>
                     </div>
 
                     <div className="HorizontalAd__main-content-container">
@@ -23,8 +23,7 @@ export default function HorizontalAd() {
                             SAME KIND OF OVERLY PASSIONATE SPORTS FANS.
                         </div>
                         <div className="HorizontalAd__secondary-content">
-                            <div>TAP</div>
-                            <div>AIRPORTUGAL</div>
+                            <img className="HorizontalAd__secondary-logo" src={require('./images/TAP_logo.svg')}/>
                         </div>
                     </div>
                     <button className="HorizontalAd__action-btn">Book Now</button>
