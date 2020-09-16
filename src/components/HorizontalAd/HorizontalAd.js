@@ -7,7 +7,6 @@ export default function HorizontalAd() {
 
             <div className="HorizontalAd__main">
 
-            
                 <div className='HorizontalAd__tiles'>
                     <img width='125' src={require('./images/Tiles.png')}/>
                 </div>

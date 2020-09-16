@@ -10,6 +10,10 @@
     cursor: pointer;
 }
 
+.HorizontalAd img{
+    -webkit-user-drag: none;
+}
+
 
 .HorizontalAd__main {
     background: linear-gradient(90deg, transparent 57%, rgba(0,0,0,0.456936) 100%);
