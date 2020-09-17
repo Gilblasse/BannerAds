@@ -1,0 +1,62 @@
+.VerticalAd{
+    position: relative;
+    width: 160px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-image: url(/static/media/Gears.3216f271.png);
+    background-size: cover;
+    background-position: 67% 0%;
+}
+
+
+.bottomLogoContainer{
+    position: absolute;
+    bottom: 15px;
+}
+
+.bottomLogoContainer img {
+    margin: 0 22%;
+}
+
+.VerticalAd__button{
+    position: absolute;
+    bottom: 86px;
+    margin: 0 7%;
+    padding: 5px 9px;
+    border-radius: 6px;
+    font-family: frutiger-bold;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.box{
+    width: 145px;
+    height: 180px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.box, .box-1{
+    background-color: #cf142b;
+    position: relative;
+    opacity: .9;
+}
+
+.top-logo{
+    width: 87px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.caption{
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+
+.bold {
+    font-family: frutiger-bold;
+}
